@@ -12,6 +12,14 @@ end
 
 group :development, :test do
   gem 'byebug'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'faker'
+  gem 'json_expressions'
+  gem 'rspec'
+  gem 'rspec-its'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers', '~> 2.8.0'
   gem 'spring'
   gem 'web-console', '~> 2.0'
 end
