@@ -10,3 +10,6 @@ AllCops:
     - 'db/**/*'
     - 'config/**/*'
     - 'vendor/bundle/**/*'
+
+Style/Documentation:
+  Enabled: false
