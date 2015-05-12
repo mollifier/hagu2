@@ -1,4 +1,4 @@
-# Haguruma
+# Hagu2 (Hagu Hagu)
 
 ## 概要
 
