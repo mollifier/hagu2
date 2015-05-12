@@ -12,6 +12,7 @@ end
 
 group :development, :test do
   gem 'annotate'
+  gem 'bullet'
   gem 'byebug'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
