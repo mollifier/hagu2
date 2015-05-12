@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - 'Rakefile'
+    - 'Guardfile'
+    - 'bin/rake'
+    - 'bin/rails'
+    - 'bin/rspec'
+    - 'bin/spring'
+    - 'db/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'vendor/bundle/**/*'
