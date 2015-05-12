@@ -15,6 +15,9 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'faker'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-rubocop'
   gem 'json_expressions'
   gem 'rspec'
   gem 'rspec-its'
@@ -22,5 +25,6 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 2.8.0'
   gem 'spring'
   gem 'spring-commands-rspec'
+  gem 'terminal-notifier-guard'
   gem 'web-console', '~> 2.0'
 end
