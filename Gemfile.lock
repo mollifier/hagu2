@@ -227,6 +227,7 @@ DEPENDENCIES
   rspec
   rspec-its
   rspec-rails
+  rubocop
   sdoc (~> 0.4.0)
   shoulda-matchers (~> 2.8.0)
   spring
