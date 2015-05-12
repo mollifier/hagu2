@@ -11,7 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150512072951) do
+ActiveRecord::Schema.define(version: 20150512081212) do
+
+  create_table "converters", force: :cascade do |t|
+    t.integer  "haguruma_id"
+    t.integer  "priority"
+    t.text     "input_pattern"
+    t.text     "output_url"
+    t.integer  "outout_http_method"
+    t.integer  "output_data_format"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
+
+  add_index "converters", ["haguruma_id"], name: "index_converters_on_haguruma_id"
 
   create_table "hagurumas", force: :cascade do |t|
     t.string   "name"
