@@ -11,6 +11,7 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'annotate'
   gem 'byebug'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
