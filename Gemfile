@@ -21,6 +21,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'guard-rubocop'
   gem 'json_expressions'
+  gem 'pry-rails'
   gem 'rspec'
   gem 'rspec-its'
   gem 'rspec-rails'
